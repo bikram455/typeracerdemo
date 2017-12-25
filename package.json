@@ -1,0 +1,28 @@
+{
+  "name": "typeracerdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000 -c-1 ./"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "jasmine-reporters": "^2.2.0",
+    "jasmine-spec-reporter": "^2.7.0",
+    "karma": "^0.13.22",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.26",
+    "karma-junit-reporter": "^0.4.1",
+    "protractor": "^4.0.9"
+  },
+  "author": "",
+  "license": "ISC"
+}
